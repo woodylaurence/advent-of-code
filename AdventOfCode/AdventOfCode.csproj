@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ProblemResources\Problem1\Input.txt" />
+    <None Remove="ProblemResources\Problem2\Input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ProblemResources\Problem1\Input.txt" />
+    <EmbeddedResource Include="ProblemResources\Problem2\Input.txt" />
+  </ItemGroup>
+
 </Project>
