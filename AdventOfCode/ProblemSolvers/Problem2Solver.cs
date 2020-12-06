@@ -8,7 +8,7 @@ namespace AdventOfCode.ProblemSolvers
 	{
 		public string Solve()
 		{
-			var numbers = ResourceUtilities.ReadResource("Problem2.Input.txt").Split("\r\n").Select(int.Parse).ToList();
+			var numbers = ResourceUtilities.ReadResource("Day1.Input.txt").Split("\r\n").Select(int.Parse).ToList();
 			var (num1, num2, num3) = numbers.SelectMany((x, index1) => numbers.Skip(index1 + 1)
 																			  .SelectMany((y, index2) => numbers.Skip(index1 + index2 + 2)
 																												.Select(z => (Num1: x, Num2: y, Num3: z))))

@@ -7,18 +7,14 @@
 
   <ItemGroup>
     <None Remove="ProblemResources\Day3\Input.txt" />
-    <None Remove="ProblemResources\Problem1\Input.txt" />
-    <None Remove="ProblemResources\Problem2\Input.txt" />
-    <None Remove="ProblemResources\Problem3\Input.txt" />
-    <None Remove="ProblemResources\Problem4\Input.txt" />
+    <None Remove="ProblemResources\Day1\Input.txt" />
+    <None Remove="ProblemResources\Day2\Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="ProblemResources\Day3\Input.txt" />
-    <EmbeddedResource Include="ProblemResources\Problem1\Input.txt" />
-    <EmbeddedResource Include="ProblemResources\Problem2\Input.txt" />
-    <EmbeddedResource Include="ProblemResources\Problem3\Input.txt" />
-    <EmbeddedResource Include="ProblemResources\Problem4\Input.txt" />
+    <EmbeddedResource Include="ProblemResources\Day1\Input.txt" />
+    <EmbeddedResource Include="ProblemResources\Day2\Input.txt" />
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,7 @@ namespace AdventOfCode.ProblemSolvers
 	{
 		public string Solve()
 		{
-			var inputs = ResourceUtilities.ReadResource("Problem3.Input.txt").Split("\r\n").ToList();
+			var inputs = ResourceUtilities.ReadResource("Day2.Input.txt").Split("\r\n").ToList();
 			var inputParsingRegex = new Regex("(\\d+)-(\\d+) ([a-z]): ([a-z]+)");
 			return inputs.Select(x => inputParsingRegex.Match(x))
 						 .Select(x => (LowerLimit: int.Parse(x.Groups[1].Captures[0].Value), UpperLimit: int.Parse(x.Groups[2].Captures[0].Value), Letter: x.Groups[3].Captures[0].Value, Input: x.Groups[4].Captures[0].Value))
