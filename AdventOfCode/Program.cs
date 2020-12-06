@@ -8,7 +8,7 @@ namespace AdventOfCode
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new Problem6Solver();
+			var problemSolver = new Problem8Solver();
 			var stopwatch = Stopwatch.StartNew();
 			var solution = problemSolver.Solve();
 			stopwatch.Stop();

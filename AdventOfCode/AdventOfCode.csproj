@@ -9,12 +9,14 @@
     <None Remove="ProblemResources\Day3\Input.txt" />
     <None Remove="ProblemResources\Day1\Input.txt" />
     <None Remove="ProblemResources\Day2\Input.txt" />
+    <None Remove="ProblemResources\Day4\Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="ProblemResources\Day3\Input.txt" />
     <EmbeddedResource Include="ProblemResources\Day1\Input.txt" />
     <EmbeddedResource Include="ProblemResources\Day2\Input.txt" />
+    <EmbeddedResource Include="ProblemResources\Day4\Input.txt" />
   </ItemGroup>
 
 </Project>
