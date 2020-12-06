@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ProblemResources\Day3\Input.txt" />
     <None Remove="ProblemResources\Problem1\Input.txt" />
     <None Remove="ProblemResources\Problem2\Input.txt" />
     <None Remove="ProblemResources\Problem3\Input.txt" />
@@ -13,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="ProblemResources\Day3\Input.txt" />
     <EmbeddedResource Include="ProblemResources\Problem1\Input.txt" />
     <EmbeddedResource Include="ProblemResources\Problem2\Input.txt" />
     <EmbeddedResource Include="ProblemResources\Problem3\Input.txt" />
